@@ -2,7 +2,7 @@
 
 This project is a webpage designed for the VTuber: HiguVT
 
-![HiguVT](./readmeimages/git.png)
+![HiguVT](./src/asset/About/git.png)
 
 ## Structure
 
