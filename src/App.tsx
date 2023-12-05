@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import AboutMe from './components/AboutMe';
+import TwitchStream from './components/TwitchStream';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='bg-[#02010a] flex flex-col'>
+
+      <Navbar />
+      <div className='pt-20 md:pt-0'>
+        <Hero />
+      </div>
+      <div>
+        <AboutMe />
+      </div>
+      <div>
+        <TwitchStream />
+      </div>
+    </main>
   );
 }
 
