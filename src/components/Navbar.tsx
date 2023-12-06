@@ -21,7 +21,7 @@ const NAVIGATION_INFO = [
 ]
 const Navbar = () => {
     return (
-        <section className='fixed w-full z-10 flex'>
+        <section className='fixed w-full z-20 flex'>
             <motion.div
                 initial={{ y: -200 }}
                 animate={{ y: 0 }}

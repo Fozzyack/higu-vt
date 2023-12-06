@@ -59,7 +59,7 @@ const Hero = () => {
                 className=''
 
             >
-                <img src={HeroImage} id='heroImage' alt='HiguVT' className=' relative z-20' style={{marginTop: `-${imagePos}`}}/>
+                <img src={HeroImage} id='heroImage' alt='HiguVT' className=' relative z-30' style={{marginTop: `-${imagePos}`}}/>
             </motion.div>
 
         </section>
