@@ -10,7 +10,7 @@ const TwitchStream = () => {
     const handleResize = () => {
       const vw = Math.min(document.documentElement.clientWidth, window.innerWidth || 0);
       const vh = (vw / 12 * 4);
-      setClientWidth((vw - 200).toString().concat('px'));
+      setClientWidth((vw - vw / 3).toString().concat('px'));
       setClientHeight(vh.toString().concat('px'))
 
     };
