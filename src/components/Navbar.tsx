@@ -26,7 +26,7 @@ const Navbar = () => {
                 initial={{ y: -200 }}
                 animate={{ y: 0 }}
                 transition={{ type: 'spring', stiffness: 55, delay: 3 }}
-                className='w-full flex' 
+                className='w-full flex'
 
             >
                 <nav className='bg-[#10002B] py-4 flex flex-row w-full align-middle justify-between'>
@@ -37,6 +37,12 @@ const Navbar = () => {
 
                         ))}
                     </div>
+                    
+                    <button className='block lg:hidden mr-5 hover:bg-slate-500 border rounded-xl p-2'>
+                        <svg className="w-6 h-6 text-gray-800 dark:text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
                 </nav>
             </motion.div>
         </section>
