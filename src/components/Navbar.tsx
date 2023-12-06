@@ -77,7 +77,7 @@ const Navbar = () => {
                 </div>
             </motion.div>
 
-            <section className='fixed w-full' style={{zIndex: zVal}} >
+            <section className='fixed w-full shadow-xl' style={{zIndex: zVal}} >
                 <motion.div
                     initial={{ y: -200 }}
                     animate={{ y: 0 }}
