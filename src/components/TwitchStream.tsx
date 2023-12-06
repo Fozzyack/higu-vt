@@ -1,6 +1,7 @@
 import React from 'react'
 import { TwitchEmbed } from 'react-twitch-embed'
 import VaraText from './VaraText';
+import useOnScreen from './InView';
 const TwitchStream = () => {
 
   const [clientWidth,  setClientWidth] = React.useState('300px');
@@ -21,12 +22,16 @@ const TwitchStream = () => {
       };
   }, []);
 
+  const ref = React.useRef<HTMLDivElement>(null);
+  const isVisible = useOnScreen(ref)
   return (
 
     
 
-    <div className='flex flex-col items-center gap-5 p-10 border-rounded-xl bg-[#1d1936]'>
-      <VaraText text='My Stream' contName='my-stream'/>
+    <div ref={ref} className='flex flex-col items-center gap-5 p-10 border-rounded-xl bg-[#1d1936]'>
+      {
+        isVisible && <VaraText text='My Stream' contName='my-stream'/>
+      }
       <TwitchEmbed
         channel='higuvt'
         onAuthenticate={function noRefCheck() { }}

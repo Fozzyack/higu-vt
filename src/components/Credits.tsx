@@ -1,5 +1,6 @@
 import React from 'react'
 import VaraText from './VaraText'
+import useOnScreen from './InView'
 
 const CREDITS_INFO = [
   {
@@ -53,10 +54,16 @@ const CREDITS_INFO = [
     link: 'https://frasier-sundra.netlify.app'
   }
 ]
+
 const Credits = () => {
+  
+  const ref = React.useRef<HTMLDivElement>(null)
+  const isVisible = useOnScreen(ref)
   return (
-    <div className='flex flex-col items-center py-10 gap-5 text-white bg-slate-900'>
-      <VaraText text='Credits' contName='credit-section'/>
+    <div ref={ref} className='flex flex-col items-center py-10 gap-5 text-white bg-slate-900'>
+      {
+        isVisible && <VaraText text='Credits' contName='credit-section'/>
+      }
       {
         CREDITS_INFO.map((credit, index) => (
           <div key={index} className='flex flex-row'>

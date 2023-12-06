@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import aboutMeImage from '../asset/About/git.png'
 import VaraText from './VaraText'
+import useOnScreen from './InView';
 const AboutMe = () => {
 
     const [isVisible, setIsVisible] = useState(false);
@@ -25,11 +26,15 @@ const AboutMe = () => {
         };
     }, []);
 
+    const ref = React.useRef<HTMLDivElement>(null);
+    const loadEl = useOnScreen(ref)
+
     return (
-        <div className='flex flex-col items-center px-10 md:items-start md:grid md:grid-cols-12 md:px-16 gap-10 py-16 bg-slate-900'>
+        <div ref={ref} className='flex flex-col items-center px-10 md:items-start md:grid md:grid-cols-12 md:px-16 gap-10 py-16 bg-slate-900'>
             <div className='md:col-span-8 text-white text-center flex flex-col items-center'>
 
-                <VaraText text='About Me' contName={'about-me'}/>
+                {loadEl && <VaraText text='About Me' contName={'about-me'} />}
+
 
 
                 <p className=''>
