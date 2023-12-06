@@ -8,7 +8,7 @@ import Socials from './components/Socials';
 
 function App() {
   return (
-    <main className='bg-[#02010a] flex flex-col'>
+    <main id='main' className='bg-[#02010a] flex flex-col'>
 
       <Navbar />
       <div className='pt-5 md:pt-0'>
