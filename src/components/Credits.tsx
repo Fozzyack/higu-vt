@@ -62,7 +62,7 @@ const Credits = () => {
   return (
     <div ref={ref} className='flex flex-col items-center py-10 gap-5 text-white bg-slate-900'>
       {
-        isVisible && <VaraText text='Credits' contName='credit-section'/>
+        isVisible && <VaraText text='Credits' contName='credit-section'  fontSize={40}/>
       }
       {
         CREDITS_INFO.map((credit, index) => (

@@ -11,7 +11,7 @@ const Socials = () => {
     return (
         <div ref={ref} className='flex flex-col items-center p-4'>
             {
-                isVisible && <VaraText text='Follow Me !' contName='follow-section' />
+                isVisible && <VaraText text='Follow Me !' contName='follow-section' fontSize={36}/>
             }
             <div className='grid grid-cols-2 md:grid-cols-4 gap-10  mt-10 text-white'>
                 <a className='flex flex-col items-center font-bold text-white' href='https://twitter.com/higu_VT'>

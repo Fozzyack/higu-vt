@@ -30,7 +30,7 @@ const TwitchStream = () => {
 
     <div ref={ref} className='flex flex-col items-center gap-5 p-10 border-rounded-xl bg-[#1d1936]'>
       {
-        isVisible && <VaraText text='My Stream' contName='my-stream'/>
+        isVisible && <VaraText text='My Stream' contName='my-stream' fontSize={40}/>
       }
       <TwitchEmbed
         channel='higuvt'

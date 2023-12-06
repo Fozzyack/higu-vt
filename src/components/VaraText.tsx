@@ -4,8 +4,9 @@ import Vara from 'vara';
 type InputProps  = {
     text: string
     contName: string
+    fontSize: number
 }
-export default function VaraText({text, contName}: InputProps) {
+export default function VaraText({text, contName, fontSize}: InputProps) {
     React.useEffect(() => {
         var vara = new Vara(
             `#${contName}`,
@@ -13,7 +14,7 @@ export default function VaraText({text, contName}: InputProps) {
             [
                 {
                     text: text,
-                    fontSize: 50,
+                    fontSize: fontSize,
                     strokeWidth: 1.4,
                     color: 'white',
                     textAlign: 'center'

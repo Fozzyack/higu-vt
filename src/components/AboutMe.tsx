@@ -33,7 +33,7 @@ const AboutMe = () => {
         <div ref={ref} className='flex flex-col items-center px-10 md:items-start md:grid md:grid-cols-12 md:px-16 gap-10 py-16 bg-slate-900'>
             <div className='md:col-span-8 text-white text-center flex flex-col items-center'>
 
-                {loadEl && <VaraText text='About Me' contName={'about-me'} />}
+                {loadEl && <VaraText text='About Me' contName={'about-me'} fontSize={40}/>}
 
 
 
