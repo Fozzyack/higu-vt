@@ -8,15 +8,16 @@ export default function VaraText({ text }: { text: string }) {
             "https://raw.githubusercontent.com/akzhy/Vara/master/fonts/Satisfy/SatisfySL.json",
             [
                 {
-                    text: text,
-                    fontSize: 140,
-                    strokeWidth: 1,
+                    text: 'About Me',
+                    fontSize: 50,
+                    strokeWidth: 1.4,
                     color: 'white',
+
                   },
             ]
         );
     }, []);
 
-    return <div id="vara-container" className="z-[20]"></div>;
+    return <div id="vara-container" className="z-[20] flex justify-center"></div>;
 }
 

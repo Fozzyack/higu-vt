@@ -27,8 +27,10 @@ const AboutMe = () => {
 
     return (
         <div className='flex flex-col items-center px-10 md:items-start md:grid md:grid-cols-12 md:px-16 gap-10 py-16 bg-slate-900'>
-            <div className='md:col-span-8 text-white text-center border'>
-                 <VaraText text='About Me' />
+            <div className='md:col-span-8 text-white text-center flex flex-col items-center'>
+                
+                <VaraText text='About-Me'/>
+
 
                 <p className=''>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis debitis at! Modi odit totam quas beatae? Eius excepturi voluptatum, sunt officiis vel, voluptates in maxime suscipit placeat obcaecati sit.
