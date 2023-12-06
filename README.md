@@ -15,8 +15,11 @@ Similar to [portfolio website](https://github.com/Fozzyack/myResume)
 
 ## Deployment
 
-- Not yet figured out most likely DigitalOcean or netlify
+- Using  Netlify for free deployment
 
 ## Optimizations
 
-- react-router-dom was not needed as the only component used for <Link>
+- Navbar is manually aligned
+- Painful amount of time spend on z-index
+- Site uses useLayoutEffect which may cause loading speeds to slow down
+- Might have been better to use useEffect
