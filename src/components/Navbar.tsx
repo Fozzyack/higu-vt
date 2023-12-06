@@ -30,7 +30,7 @@ const Navbar = () => {
 
             >
                 <nav className='bg-[#10002B] p-4 rounded-full flex flex-row w-full mx-10 align-middle justify-between'>
-                    <h1 className='text-white font-bold text-5xl mx-7'>Logo</h1>
+                    <h1 className='text-white font-bold text-xl md:text-4xl mx-7'>Logo</h1>
                     <div className='hidden lg:flex flex-row space-x-10 items-center text-white font-bold pr-10'>
                         {NAVIGATION_INFO.map((navigation, index) => (
                             <p key={index}>{navigation.section}</p>

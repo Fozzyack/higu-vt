@@ -18,6 +18,6 @@ export default function VaraText({ text }: { text: string }) {
         );
     }, []);
 
-    return <div id="vara-container" className="z-[20] flex justify-center"></div>;
+    return <div id="vara-container" className="z-[0] flex justify-center"></div>;
 }
 

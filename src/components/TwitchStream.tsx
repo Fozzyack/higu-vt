@@ -8,7 +8,7 @@ const TwitchStream = () => {
     const handleResize = () => {
       const vw = Math.min(document.documentElement.clientWidth, window.innerWidth || 0);
       const vh  = (vw / 12 * 4);
-      setClientWidth(vw.toString().concat('px'));
+      setClientWidth((vw - 100).toString().concat('px'));
       setClientHeight(vh.toString().concat('px'))
       
     };
@@ -24,7 +24,7 @@ const TwitchStream = () => {
 
     
 
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center gap-5 p-10 border-rounded-xl bg-[#1d1936]'>
       <h1 className='font-bold text-4xl text-white'> My Stream </h1>
       <TwitchEmbed
         channel='higuvt'
