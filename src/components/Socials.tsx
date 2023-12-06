@@ -1,9 +1,10 @@
 import React from 'react'
+import VaraText from './VaraText'
 
 const Socials = () => {
     return (
         <div className='flex flex-col items-center p-4'>
-            <h1 className='text-white font-bold text-4xl'> Follow Me!</h1>
+            <VaraText text='Follow Me !' contName='follow-section'/>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-10  mt-10 text-white'>
                 <a className='flex flex-col items-center font-bold text-white' href='https://twitter.com/higu_VT'>
                     <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">

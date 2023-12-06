@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import aboutMeImage from '../asset/About/git.png'
-import VaraText from '../components/VaraText'
+import VaraText from './VaraText'
 const AboutMe = () => {
 
     const [isVisible, setIsVisible] = useState(false);
@@ -29,7 +29,7 @@ const AboutMe = () => {
         <div className='flex flex-col items-center px-10 md:items-start md:grid md:grid-cols-12 md:px-16 gap-10 py-16 bg-slate-900'>
             <div className='md:col-span-8 text-white text-center flex flex-col items-center'>
 
-                <VaraText text='About-Me' />
+                <VaraText text='About Me' contName={'about-me'}/>
 
 
                 <p className=''>

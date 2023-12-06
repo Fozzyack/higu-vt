@@ -1,4 +1,5 @@
 import React from 'react'
+import VaraText from './VaraText'
 
 const CREDITS_INFO = [
   {
@@ -55,7 +56,7 @@ const CREDITS_INFO = [
 const Credits = () => {
   return (
     <div className='flex flex-col items-center py-10 gap-5 text-white bg-slate-900'>
-      <h1 className='text-5xl font-bold'>Credits</h1>
+      <VaraText text='Credits' contName='credit-section'/>
       {
         CREDITS_INFO.map((credit, index) => (
           <div key={index} className='flex flex-row'>

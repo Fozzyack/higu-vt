@@ -1,5 +1,6 @@
 import React from 'react'
 import { TwitchEmbed } from 'react-twitch-embed'
+import VaraText from './VaraText';
 const TwitchStream = () => {
 
   const [clientWidth,  setClientWidth] = React.useState('300px');
@@ -25,7 +26,7 @@ const TwitchStream = () => {
     
 
     <div className='flex flex-col items-center gap-5 p-10 border-rounded-xl bg-[#1d1936]'>
-      <h1 className='font-bold text-4xl text-white'> My Stream </h1>
+      <VaraText text='My Stream' contName='my-stream'/>
       <TwitchEmbed
         channel='higuvt'
         onAuthenticate={function noRefCheck() { }}
