@@ -2,8 +2,8 @@ import React from 'react'
 import { TwitchEmbed } from 'react-twitch-embed'
 const TwitchStream = () => {
   return (
-    <div className='flex-col'>
-      <h1> My Stream </h1>
+    <div className='flex flex-col items-center'>
+      <h1 className='font-bold text-4xl text-white'> My Stream </h1>
       <TwitchEmbed
         channel='higuvt'
         onAuthenticate={function noRefCheck() { }}

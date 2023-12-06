@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import TwitchStream from './components/TwitchStream';
+import Credits from './components/Credits';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div>
         <TwitchStream />
+      </div>
+      <div>
+        <Credits />
       </div>
     </main>
   );
