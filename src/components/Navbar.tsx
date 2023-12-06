@@ -72,14 +72,14 @@ const Navbar = () => {
                 </div>
             </motion.div>
 
-            <section className='fixed w-full bg-[#10002B]' style={{ zIndex: zVal }} >
+            <section className='fixed w-full' style={{ zIndex: zVal }} >
                 <motion.div
                     initial={{ y: -200 }}
                     animate={{ y: 0 }}
                     transition={{ type: 'spring', stiffness: 55, delay: 3 }}
                     className='w-full flex'
                 >
-                    <nav className=' py-4 flex flex-row w-full align-middle justify-between'>
+                    <nav className='bg-[#10002B] py-4 flex flex-row w-full align-middle justify-between'>
                         <button className='flex flex-row items-center'>
                             <img src={logo} className='w-[60px] md:w-[80px] ml-6' />
                             <h1 className='text-white font-bold text-xl md:text-4xl mx-7 hidden md:block'>Higu 日ぐ</h1>
