@@ -9,7 +9,7 @@ type navProp = {
 }
 const MobileMenu = ({nav_info}: navProp) => {
   return (
-    <div className='mb-2 bg-[#10002B]' >
+    <div className='mb-2 bg-[#10002B] py-8 -mt-5' >
         {nav_info.map((nav, index) => (
             <motion.div
             initial={{scale: 0}}
