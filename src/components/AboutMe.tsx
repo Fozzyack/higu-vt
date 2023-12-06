@@ -28,12 +28,22 @@ const AboutMe = () => {
     return (
         <div className='flex flex-col items-center px-10 md:items-start md:grid md:grid-cols-12 md:px-16 gap-10 py-16 bg-slate-900'>
             <div className='md:col-span-8 text-white text-center flex flex-col items-center'>
-                
-                <VaraText text='About-Me'/>
+
+                <VaraText text='About-Me' />
 
 
                 <p className=''>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis debitis at! Modi odit totam quas beatae? Eius excepturi voluptatum, sunt officiis vel, voluptates in maxime suscipit placeat obcaecati sit.
+                    Greetings, lovely viewers! 🌟 Virtual hugs from your friendly neighborhood VTuber! 🎮✨
+
+                    I'm HiguVT, your digital companion on this wild adventure through the virtual realms. Nestled in the heart of the internet, I bring a blend of gaming, entertainment, and a sprinkle of delightful chaos to your screens.
+
+                    Imagine a fusion of pixels and personality – that's me! 🌈 Whether we're embarking on epic quests in virtual lands or sharing a laugh over the latest memes, our time together is bound to be an unforgettable experience.
+
+                    A little about the human behind the avatar: I'm <br></br> [- REDACTED -], a passionate gamer, storyteller, and all-around enthusiast for the wonders of the virtual universe. My mission? To create a community where fun knows no bounds and where every viewer is not just a spectator but a cherished member of this fantastical journey.
+
+                    So, buckle up, my dear viewers, as we navigate the digital seas together, exploring new horizons, conquering challenges, and, of course, having a blast along the way! 🚀✨
+
+                    Join me in this virtual escapade, and let's make memories that transcend the boundaries of reality. Ready, set, game on! 🎮🌟
                 </p>
             </div>
             <div className='md:col-span-4'>
