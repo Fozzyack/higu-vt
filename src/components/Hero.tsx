@@ -24,17 +24,9 @@ const Hero = () => {
           }
           setImagePos(newImagePos);
           setFontSize(newFontSize);
-          console.log(newImagePos);
-          console.log(vw)
         };
-    
-        // Initial call to set font size based on initial window width
         handleResize();
-    
-        // Attach the event listener for window resize
         window.addEventListener('resize', handleResize);
-    
-        // Cleanup the event listener on component unmount
         return () => {
           window.removeEventListener('resize', handleResize);
         };
