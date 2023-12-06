@@ -50,7 +50,7 @@ const Hero = () => {
                 
             >
 
-                <h1 className='font-bold text-white relative z-10 pt-12' style={{fontSize: fontSize}}>HIGU VT</h1>
+                <h1 className='font-bold text-white pt-12' style={{fontSize: fontSize}}>HIGU VT</h1>
             </motion.div>
             <motion.div
                 initial={{ opacity: 0 }}
@@ -59,7 +59,7 @@ const Hero = () => {
                 className=''
 
             >
-                <img src={HeroImage} id='heroImage' alt='HiguVT' className=' relative z-30' style={{marginTop: `-${imagePos}`}}/>
+                <img src={HeroImage} id='heroImage' alt='HiguVT' className='z-20 relative' style={{marginTop: `-${imagePos}`}}/>
             </motion.div>
 
         </section>

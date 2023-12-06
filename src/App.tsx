@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import TwitchStream from './components/TwitchStream';
 import Credits from './components/Credits';
+import Socials from './components/Socials';
 
 function App() {
   return (
@@ -13,14 +14,17 @@ function App() {
       <div className='pt-5 md:pt-0'>
         <Hero />
       </div>
-      <div>
+      <div id='about'>
         <AboutMe />
       </div>
-      <div>
+      <div id='twitch'>
         <TwitchStream />
       </div>
-      <div>
+      <div id='credits'>
         <Credits />
+      </div>
+      <div id='socials'>
+      <Socials />
       </div>
     </main>
   );

@@ -20,7 +20,7 @@ const CREDITS_INFO = [
 ]
 const Credits = () => {
   return (
-    <div className='flex flex-col items-center py-10 gap-5 text-white'>
+    <div className='flex flex-col items-center py-10 gap-5 text-white bg-slate-900'>
       <h1 className='text-5xl font-bold'>Credits</h1>
       {
         CREDITS_INFO.map((credit, index) => (
