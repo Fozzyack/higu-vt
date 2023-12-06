@@ -10,7 +10,7 @@ function App() {
     <main className='bg-[#02010a] flex flex-col'>
 
       <Navbar />
-      <div className='pt-20 md:pt-0'>
+      <div className='pt-5 md:pt-0'>
         <Hero />
       </div>
       <div>
