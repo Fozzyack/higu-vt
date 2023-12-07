@@ -1,4 +1,5 @@
 import React from "react"
+
 export default function useOnScreen(ref: React.RefObject<HTMLElement>) {
 
     const [isIntersecting, setIntersecting] = React.useState(false)
