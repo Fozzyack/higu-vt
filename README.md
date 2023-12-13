@@ -10,12 +10,12 @@ Similar to [portfolio website](https://github.com/Fozzyack/myResume)
 
 ## Frameworks
 
-- ReactJS
-- TailwindCSS
+* [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)
+* [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ## Deployment
 
-- Using  Netlify for free deployment
+* [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://www.netlify.com/)
 
 ## Optimizations
 
