@@ -1,6 +1,6 @@
 # The Higu Homepage 👧
 
-This project is a webpage designed for the VTuber: HiguVT
+This project is a webpage designed for the VTuber: [HiguVT](higu-vt.netlify.app)
 
 ![HiguVT](./src/asset/About/git.png)
 
