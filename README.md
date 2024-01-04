@@ -17,9 +17,4 @@ Similar to [portfolio website](https://github.com/Fozzyack/myResume)
 
 * [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://www.netlify.com/)
 
-## Optimizations
 
-- Navbar is manually aligned
-- Painful amount of time spend on z-index
-- Site uses useLayoutEffect which may cause loading speeds to slow down
-- Might have been better to use useEffect
