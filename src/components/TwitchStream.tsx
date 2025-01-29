@@ -16,7 +16,7 @@ const TwitchStream = () => {
       }
       <div className='p-4 bg-slate-900 relative w-min-[300px] h-min-[400px] rounded-xl shadow-xl '>
         <iframe
-            src="https://player.twitch.tv/?channel=higuvt&parent=higuvt.starlightvoyger.dev&muted=true"
+            src="https://player.twitch.tv/?channel=higuvt&parent=higuvt.starlightvoyager.dev&muted=true"
             title="Stream"
             className="md:w-[800px] md:h-[500px]"
             >
