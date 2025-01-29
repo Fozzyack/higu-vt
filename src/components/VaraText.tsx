@@ -22,7 +22,8 @@ export default function VaraText({text, contName, fontSize}: InputProps) {
                   },
             ]
         );
-    }, []);
+        console.log(vara);
+    }, [contName, fontSize, text]);
 
     return <div id={`${contName}`} className="z-[0] flex justify-center"></div>;
 }

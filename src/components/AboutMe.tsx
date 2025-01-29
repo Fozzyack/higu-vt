@@ -1,22 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import aboutMeImage from '../asset/About/git.png'
 import VaraText from './VaraText'
 import useOnScreen from './InView';
 const AboutMe = () => {
 
-    const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
             // Check if the component is in the viewport
-            const component = document.getElementById('show'); // Replace with your component's ID
-            if (component) {
-                const rect = component.getBoundingClientRect();
-                const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
-                setIsVisible(isInViewport);
-            }
         };
-
         // Attach the scroll event listener
         window.addEventListener('scroll', handleScroll);
 

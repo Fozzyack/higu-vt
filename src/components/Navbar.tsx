@@ -36,11 +36,6 @@ const Navbar = () => {
         setOpenMenu(false);
     }
 
-    const variants = {
-        showMenu: { scale: 1 },
-        hideMenu: { scale: 0 }
-    }
-
     const navToMain = () => {
         const element = document.createElement('a');
         element.href = '#main';
@@ -87,7 +82,7 @@ const Navbar = () => {
                     <nav className='bg-[#10002B] py-4 flex flex-row w-full align-middle justify-between'>
                         <button className='flex h-full' onClick={() => { navToMain() }}>
                             <div className='flex flex-row items-center '>
-                                <img src={logo} className='w-[60px] md:w-[80px] ml-6' />
+                                <img src={logo} alt="navbar_img" className='w-[60px] md:w-[80px] ml-6' />
                                 <h1 className='text-white font-bold text-xl md:text-4xl mx-4 md:mx-7 block'>Higu 日ぐ</h1>
                             </div>
 
